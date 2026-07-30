@@ -1,39 +1,8 @@
 *{box-sizing:border-box}
-body{
-margin:0;
-font-family:Pretendard,Arial,sans-serif;
-background:#111827;
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100vh;
-color:white;
-}
-.card{
-width:min(92vw,520px);
-background:#1f2937;
-padding:32px;
-border-radius:18px;
-box-shadow:0 10px 30px rgba(0,0,0,.3);
-}
-h1{margin:0;text-align:center;font-size:2rem}
-.sub{margin:8px 0 28px;text-align:center;color:#b6c2d1}
-input{
-width:100%;
-padding:16px;
-font-size:1.2rem;
-border-radius:12px;
-border:none;
-outline:none;
-}
-.result{
-margin-top:30px;
-font-size:2rem;
-font-weight:700;
-text-align:center;
-}
-.detail{
-margin-top:14px;
-text-align:center;
-color:#b6c2d1;
-}
+body{margin:0;background:#111827;color:#fff;font-family:Arial,sans-serif;display:flex;justify-content:center;align-items:center;min-height:100vh;padding:20px}
+.card{width:min(700px,100%);background:#1f2937;border-radius:18px;padding:30px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+h1{text-align:center;margin:0}
+.sub,.note{text-align:center;color:#b8c0cc}
+input{width:100%;padding:15px;font-size:20px;border-radius:10px;border:none;margin-top:20px}
+.result{text-align:center;font-size:36px;font-weight:bold;margin:28px 0 20px}
+.foxes{font-size:34px;line-height:1.8;text-align:center;word-break:break-word}
